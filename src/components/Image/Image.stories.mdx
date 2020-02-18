@@ -1,0 +1,26 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import Image from './Image';
+
+<Meta title="MDX/Image" component={Image} />
+
+# Image
+
+- Story with `default` width & height.
+
+<Preview>
+  <Story name="default">
+    <Image src="https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png" />
+  </Story>
+</Preview>
+
+- Story with `height` as 500px and `width` as 500px
+
+<Preview>
+  <Story name="Size 500">
+    <Image
+      src="https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+      height={500}
+      width={500}
+    />
+  </Story>
+</Preview>
