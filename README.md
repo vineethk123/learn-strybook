@@ -14,6 +14,10 @@ Starts the storybook server.<br />
 
 Deploys storybook to github pages associated with the repo.<br />
 
+### `yarn test`
+
+To run unit tests
+
 # Note for `npm` users
 
 - Remove **yarn.lock**
