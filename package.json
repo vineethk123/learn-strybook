@@ -3,18 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/jest-dom": "^5.8.0",
+    "@testing-library/react": "^10.0.4",
+    "@testing-library/user-event": "^10.3.3",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.4.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "deploy-storybook": "storybook-to-ghpages"
@@ -39,8 +39,9 @@
     "@storybook/addon-docs": "^5.3.13",
     "@storybook/addon-links": "^5.3.13",
     "@storybook/addons": "^5.3.13",
-    "@storybook/preset-create-react-app": "^1.5.2",
+    "@storybook/preset-create-react-app": "^2.1.2",
     "@storybook/react": "^5.3.13",
-    "@storybook/storybook-deployer": "^2.8.1"
+    "@storybook/storybook-deployer": "^2.8.1",
+    "jest-environment-jsdom-sixteen": "^1.0.3"
   }
 }
